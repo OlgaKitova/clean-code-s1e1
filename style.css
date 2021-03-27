@@ -18,9 +18,11 @@
 }
 
 @media (max-width:768px) {
+
 .header { 
   text-align: center;
 }
+
 }
 .main {
   display: block;
@@ -46,7 +48,7 @@
 .item__checkbox,
 .item__hide,
 .new__task,
-.btn{
+.btn {
   outline:none;
 }
 .btn {
