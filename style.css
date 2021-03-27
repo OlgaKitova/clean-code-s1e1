@@ -42,7 +42,8 @@
   margin: 0;
   padding: 0px;
 }
-.item__list, .item__title {
+.item__list, 
+.item__title {
   list-style: none;
 }
 .item__checkbox,
