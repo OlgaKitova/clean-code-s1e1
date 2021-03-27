@@ -39,17 +39,17 @@
 }
 #incomplete-tasks,
 #completed-tasks {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .item__list, .item__title {
-  list-style:none;
+  list-style: none;
 }
 .item__checkbox,
 .item__hide,
 .new__task,
 .btn {
-  outline:none;
+  outline: none;
 }
 .btn {
   background: none;
@@ -149,14 +149,14 @@
 
 /* Edit Task */
 .item__hide {
-  display:none
+  display: none
 }
 
 .edit-mode > .item__hide {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .edit-mode > .task__title {
-  display:none;
+  display: none;
 }
