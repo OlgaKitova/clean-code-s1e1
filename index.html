@@ -16,34 +16,34 @@
          href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </div>
     <div class="main">
-      <p id="item__new"><label for="new-task">Add Item</label>
+      <p id="item__new"><label class="item__task" for="new-task">Add Item</label>
         <div class="item__wrapper">
-          <input id="new-task" class="new__task" type="text">
+          <input id="new-task" class="task new__task" type="text">
           <button class="btn btn-add">Add</button>
         </div>
       </p>
       <h3 class="item__title">Todo</h3>
       <ul id="incomplete-tasks">
         <li class="item__list">
-          <input class="item__checkbox" type="checkbox"><label class="task">Pay Bills</label>
+          <input class="item__checkbox" type="checkbox"><label class="task__title">Pay Bills</label>
           <input class="item__hide" type="text">
           <button class="btn btn-edit">Edit</button>
-          <button class="btn btn-delete"><img src="./remove.svg"></button>
+          <button class="btn btn-delete"><img class="btn__img" src="./remove.svg"></button>
         </li>
-        <li class="item__link edit-mode">
-          <input class="item__checkbox" type="checkbox"><label class="task">Go Shopping</label>
-          <input class="item__hide" type="text" value="Go Shopping" class="task">
+        <li class="item__list edit-mode">
+          <input class="item__checkbox" type="checkbox"><label class="task__title">Go Shopping</label>
+          <input type="text" value="Go Shopping" class="task item__hide">
           <button class="btn btn-edit">Save</button>
-          <button class="btn btn-delete"><img src="./remove.svg"></button>
+          <button class="btn btn-delete"><img class="btn__img" src="./remove.svg"></button>
         </li>
       </ul>
       <h3 class="item__title">Completed</h3>
       <ul id="completed-tasks">
         <li class="item__list">
-          <input class="item__checkbox" type="checkbox" checked><label class="task">See the Doctor</label>
-          <input class="item__hide" type="text" class="task">
+          <input class="item__checkbox" type="checkbox" checked><label class="task__title">See the Doctor</label>
+          <input type="text" class="task item__hide">
           <button class="btn btn-edit">Edit</button>
-          <button class="btn btn-delete"><img src="./remove.svg"></button>
+          <button class="btn btn-delete"><img class="btn__img" src="./remove.svg"></button>
         </li>
       </ul>
     </div>
